@@ -1,0 +1,27 @@
+/* tabla.css */
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Para que los bordes no se dupliquen */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px 12px; /* Espaciado dentro de las celdas */
+    border: 1px solid #ddd; /* Borde gris claro */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+th {
+    background-color: #f2f2f2; /* Fondo gris claro para las celdas de los encabezados */
+    font-weight: bold; /* Hace que el texto en los encabezados sea en negrita */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fondo diferente para las filas pares */
+}
+
+tr:hover {
+    background-color: #e1e1e1; /* Fondo más oscuro cuando pasas el cursor sobre una fila */
+}
